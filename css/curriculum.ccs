@@ -1,8 +1,4 @@
-
-
-/*estilo general*/
-
-body {
+ody {
   background-color: grey;
   font-family: 'Roboto', sans-serif;
 }
@@ -31,29 +27,25 @@ img {
   object-fit: cover;
 }
 
-/* Secciones */
-
-.personal-info, #experiencia, #educacion {
+.personal-info, .experience, .education {
   margin-bottom: 30px;
 }
 
-.personal-info h2, #experiencia h2, #educacion h2 {
+.personal-info h2, .experience h2, .education h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
 }
 
-.personal-info p, #experiencia p, #educacion p {
+.personal-info p, .experience p, .education p {
   font-size: 1.2em;
   margin-bottom: 5px;
 }
-
-/* Estilos para ocultar y mostrar contenido */
 
 .hide {
   display: none;
 }
 
-#experiencia-mostrar, #educacion-mostrar, #experiencia-cerrar, #educacion-cerrar {
+.experience-button, .education-button {
   font-size: 1.2em;
   padding: 10px 20px;
   border-radius: 5px;
